@@ -2,20 +2,23 @@
   <div id="app">
     <Title />
 
-    <Jumbo />
+    <Jumbotron />
+
+
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import Title from './components/Title.vue';
-import Jumbo from './components/Jumbo.vue';
+import Jumbotron from './components/Jumbotron.vue';
+
 
 export default {
   name: 'App',
   components: {
     Title,
-    Jumbo, 
+    Jumbotron,
   }
 }
 </script>
